@@ -45,21 +45,15 @@ git clone https://github.com/your-repository-name.git
 2. Install dependencies
 Navigate to the project directory and install the required dependencies using npm:
 
-bash
-Copy code
+```bash
 npm install
 3. Set up environment variables
 Create a .env file in the root directory and configure it with the following variables:
 
-plaintext
-Copy code
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/vrv_security   # or your MongoDB cloud URI
-JWT_SECRET=your-jwt-secret-key
 4. Run the application
 Start the application in development mode using the following command:
 
-bash
-Copy code
+```bash
+
 npm run dev
 The server will be available at http://localhost:5000.
