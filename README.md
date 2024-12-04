@@ -37,23 +37,25 @@ Before running the project, ensure that the following are installed:
 
 ## Getting Started
 
-### 1. Clone the repository or download the ZIP folder
-Clone the repository using the following command or download it as a ZIP and extract it:
+## Installation and Setup
 
-```bash
-git clone https://github.com/your-repository-name.git
+### 1. Clone the Repository
+Clone the project repository to your local machine:
+
+git clone https://github.com/PranavRajS07/Sentinel-Access-Manager
+
 ### 2. Install dependencies
 Navigate to the project directory and install the required dependencies using npm:
 
-```bash
 npm install
-3. Set up environment variables
-Create a .env file in the root directory and configure it with the following variables:
 
-4. Run the application
+**3. Set up environment variables**
+Create a .env file in the root directory and configure it 
+---
+
+**4. Run the application**
 Start the application in development mode using the following command:
 
-```bash
-
 npm run dev
+---
 The server will be available at http://localhost:5000.
